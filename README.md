@@ -36,13 +36,15 @@ The script contains three classes: `Rollable`, `Player`, and `Game`.
 
 ## How to Play
 
-1. Run the script and specify the number of players and their names.
+1. Download or create a CSV file describing the game board, with values like "S1", "L1", etc. (snakes and ladders) to represent chutes (snakes) and ladders. The file path should be updated in the code (board_file_path variable) to specify the board configuration.
 
-2. Choose the type of dice or dices you want to use (4-sided, 6-sided, or both).
+2. Run the Python script. It will prompt you for the number of players and their names.
 
-3. The game will start, and players will take turns rolling the dice and moving on the board.
+3. Choose the type of dice or dices you want to use (4-sided, 6-sided, or both).
 
-4. The game continues until one of the players reaches the winning position (location 100).
+4. The game will start, and players will take turns rolling the dice and moving on the board.
+
+5. The game continues until one of the players reaches the winning position (location 100).
 
 ## Features
 
