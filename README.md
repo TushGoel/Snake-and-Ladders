@@ -1,10 +1,3 @@
-# Snake-and-Ladders
-Python3 code for Snake and Ladders game
-
-Creating a README file for your Python code is a great way to provide documentation and information about your script to other developers or users. Here's a simple README file for your code:
-
----
-
 # Python Board Game
 
 This Python script simulates a board game with chutes (snakes) and ladders. Players roll dice and move on the board, and they can encounter chutes and ladders that affect their progress. The game continues until a player reaches the winning position.
@@ -57,22 +50,14 @@ The script contains three classes: `Rollable`, `Player`, and `Game`.
 
 - Handles chutes and ladders on the board, affecting player movements.
 
-- Prevents players from landing on position 99 when using both 4-sided and 6-sided dice, as this would lead to an infinite loop.
+- Prevents players from landing on position 99 when using both 4-sided and 6-sided dice either by rolling the dice or climbing the ladder, as this would lead to an infinite loop.
 
 - Provides a clear winner when a player reaches location 100.
 
 ## File Structure
 
-- `board1.csv`: Contains the board configuration with chutes (S) and ladders (L).
+- `board1.csv`, `board2.csv`, `board3.csv` : Contains the board configuration/s with chutes (S) and ladders (L).
 
 - `README.md`: This documentation file.
 
 - `game.py`: The Python script for the board game.
-
-## Contributing
-
-Feel free to contribute to this project by making improvements or adding new features. If you encounter any issues or have suggestions, please open an issue or create a pull request.
-
----
-
-This README provides an overview of your Python code, instructions for installation and usage, and information about how to play the game. You can further expand or modify it to suit your needs or those of your users.
